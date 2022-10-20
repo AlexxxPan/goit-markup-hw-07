@@ -12,9 +12,10 @@
 .team__item {
   margin-right: 30px;
   border-radius: 0px 0px 4px 4px;
-}
-.team__item:nth-child(4n) {
+ 
+  &:nth-child(4n) {
   margin-right: 0;
+  }
 }
 .soc-list__link {
   width: 44px;
